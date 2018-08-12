@@ -28,7 +28,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_security_group" "allow_http" {
-  name        = "allow_all_http"
+  name        = "allow_all_http_ssh"
   description = "Allow all HTTP traffic"
 
   ingress {
